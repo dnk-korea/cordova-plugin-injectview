@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-injectview-duplicate" version="0.1.3">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-injectview" version="0.1.3">
 	<name>InjectView</name>
 	<author>Fabian Strachanski</author>
 	<description>Injects cordova and Plugins in the view. Nice when you load Remote Websites</description>
 	<license>MIT</license>
 	<keywords>inject, cordova, javascript</keywords>
-	<repo>https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git</repo>
-	<issue>https://github.com/dnk-korea/cordova-plugin-injectview-duplicate/issues</issue>
+	<repo>https://github.com/dnk-korea/cordova-plugin-injectview.git</repo>
+	<issue>https://github.com/dnk-korea/cordova-plugin-injectview/issues</issue>
 	<js-module src="www/inject.js" name="inject">
 		<clobbers target="inject" />
 	</js-module>
