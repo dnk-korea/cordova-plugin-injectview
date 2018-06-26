@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-injectview",
+  "name": "de.fastr.phonegap.plugins.injectView",
   "version": "1.0.0",
   "description": "Injects cordova and Plugins into any site",
   "cordova": {
-    "id": "cordova-plugin-injectview",
+    "id": "de.fastr.phonegap.plugins.injectView",
     "platforms": [
       "ios",
       "android"
