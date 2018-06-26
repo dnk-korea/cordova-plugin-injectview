@@ -1,16 +1,17 @@
 {
   "name": "cordova-plugin-injectview",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "Injects cordova and Plugins into any site",
   "cordova": {
-    "id": "cordova-plugin-injectview",
+    "id": "cordova-plugin-injectview-duplicate",
     "platforms": [
-      "ios"
+      "ios",
+      "android"
     ]
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sberan/cordova-plugin-injectview.git"
+    "url": "https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git  "
   },
   "keywords": [
     "inject",
@@ -20,7 +21,7 @@
   "author": "Sam Beran",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sberan/cordova-plugin-injectview.git/issues"
+    "url": "https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git/issues"
   },
-  "homepage": "https://github.com/sberan/cordova-plugin-injectview.git#readme"
+  "homepage": "https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git#readme"
 }
