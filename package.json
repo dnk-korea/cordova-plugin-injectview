@@ -1,9 +1,9 @@
 {
-  "name": "cordova-plugin-injectview-duplicate",
+  "name": "cordova-plugin-injectview",
   "version": "1.0.0",
   "description": "Injects cordova and Plugins into any site",
   "cordova": {
-    "id": "cordova-plugin-injectview-duplicate",
+    "id": "cordova-plugin-injectview",
     "platforms": [
       "ios",
       "android"
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git  "
+    "url": "https://github.com/dnk-korea/cordova-plugin-injectview.git  "
   },
   "keywords": [
     "inject",
@@ -21,7 +21,7 @@
   "author": "bhong",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git/issues"
+    "url": "https://github.com/dnk-korea/cordova-plugin-injectview.git/issues"
   },
-  "homepage": "https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git#readme"
+  "homepage": "https://github.com/dnk-korea/cordova-plugin-injectview.git#readme"
 }
