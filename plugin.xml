@@ -5,8 +5,8 @@
 	<description>Injects cordova and Plugins in the view. Nice when you load Remote Websites</description>
 	<license>MIT</license>
 	<keywords>inject, cordova, javascript</keywords>
-	<repo>https://github.com/fastrde/phonegap-plugin-injectView.git</repo>
-	<issue>https://github.com/fastrde/phonegap-plugin-injectView/issues</issue>
+	<repo>https://github.com/dnk-korea/cordova-plugin-injectview-duplicate.git</repo>
+	<issue>https://github.com/dnk-korea/cordova-plugin-injectview-duplicate/issues</issue>
 	<js-module src="www/inject.js" name="inject">
 		<clobbers target="inject" />
 	</js-module>
@@ -14,11 +14,10 @@
 		<source-file src="src/android/Inject.java" target-dir="src/de/fastr/phonegap/plugins" />
 		<source-file src="src/android/engine/Injecter.java" target-dir="src/de/fastr/phonegap/plugins" />
 		<source-file src="src/android/engine/InjectWebView.java" target-dir="src/de/fastr/phonegap/plugins" />
-    <source-file src="src/android/engine/InjectWebViewClient.java" target-dir="src/de/fastr/phonegap/plugins" />
+		<source-file src="src/android/engine/InjectWebViewClient.java" target-dir="src/de/fastr/phonegap/plugins" />
 		<source-file src="src/android/engine/InjectWebViewEngine.java" target-dir="src/de/fastr/phonegap/plugins" />
-
  		<config-file target="res/xml/config.xml" parent="/*">
-      <preference name="webView" value="de.fastr.phonegap.plugins.InjectWebViewEngine"/>
+			<preference name="webView" value="de.fastr.phonegap.plugins.InjectWebViewEngine"/>
 			<feature name="Inject">
 				<param name="android-package" value="de.fastr.phonegap.plugins.Inject"/>
 				<param name="onload" value="true" />
@@ -26,13 +25,13 @@
 		</config-file>
 	</platform>
 	<platform name="ios">
-  <header-file src="src/ios/CDVInjectView.h" />
-  <source-file src="src/ios/CDVInjectView.m" />
-    <config-file target="config.xml" parent="/*">
-      <feature name="InjectView">
-        <param name="ios-package" value="CDVInjectView" />
-        <param name="onload" value="true" />
-      </feature>
-    </config-file>
-  </platform>
+	  <header-file src="src/ios/CDVInjectView.h" />
+	  <source-file src="src/ios/CDVInjectView.m" />
+	    <config-file target="config.xml" parent="/*">
+	      <feature name="InjectView">
+		<param name="ios-package" value="CDVInjectView" />
+		<param name="onload" value="true" />
+	      </feature>
+	    </config-file>
+  	</platform>
 </plugin>
