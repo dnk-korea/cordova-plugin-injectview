@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-injectview",
+  "name": "cordova-plugin-injectview-duplicate",
   "version": "1.0.0",
   "description": "Injects cordova and Plugins into any site",
   "cordova": {
